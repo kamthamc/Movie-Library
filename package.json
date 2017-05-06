@@ -12,7 +12,7 @@
         "lint:sass": "stylelint ./src/**/*.scss",
         "start": "yarn run start:dev",
         "test": "jest",
-        "build": "rm -r build && webpack --progress --env=PRODUCTION",
+        "build": "rm -r build && webpack --progress --env=production",
         "build:dev": "webpack --progress --watch",
         "start:dev": "webpack-dev-server"
     },
