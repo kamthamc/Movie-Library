@@ -2391,6 +2391,12 @@ gifsicle@^3.0.0:
     bin-wrapper "^3.0.0"
     logalot "^2.0.0"
 
+git-message@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/git-message/-/git-message-1.0.1.tgz#7d4143191866eec7852b9e972f7c2a6914cdf48d"
+  dependencies:
+    async "^2.1.4"
+
 glob-all@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/glob-all/-/glob-all-3.1.0.tgz#8913ddfb5ee1ac7812656241b03d5217c64b02ab"
