@@ -1,5 +1,5 @@
 {
-    "defaultSeverity": "error",
+    "defaultSeverity": "warning",
     "extends": [
         "tslint:recommended",
         "tslint-react"
@@ -12,5 +12,6 @@
             "avoid-escape",
             "jsx-double"
         ]
-    }
+    },
+    "tslint.exclude": "node_modules/**/*.ts"
 }
