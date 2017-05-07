@@ -1,4 +1,5 @@
 {
+    "comments": true,
     "presets": [
         [
             "es2015",
@@ -16,10 +17,11 @@
         // Transpile React components to JavaScript
     ],
     "plugins": [
-
+        "transform-runtime"
     ],
     "env": {
         "test": {
+            "sourceMaps": "both",
             "plugins": [
                 "transform-es2015-modules-commonjs"
             ]

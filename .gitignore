@@ -2,3 +2,5 @@
 node_modules/
 build/
 linters/
+/coverage/
+/Tests/__snapshots__/
