@@ -1,0 +1,17 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+        "tslint:recommended",
+        "tslint-react"
+    ],
+    "formatters": ["stylish", "codeFrame"],
+    "rules": {
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape",
+            "jsx-double"
+        ]
+    },
+    "tslint.exclude": "node_modules/**/*.ts"
+}
