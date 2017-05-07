@@ -20,6 +20,7 @@ module.exports = {
     moduleNameMapper: {
         '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2)$': '<rootDir>/Mocks/FileMock.js',
         '\\.(css|sass|scss)$': 'identity-obj-proxy'
-    }
+    },
+    mapCoverage: true
 
 };
