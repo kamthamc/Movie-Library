@@ -4,7 +4,13 @@
         "tslint:recommended",
         "tslint-react"
     ],
-    "jsRules": {},
-    "rules": {},
-    "rulesDirectory": []
+    "formatters": ["stylish", "codeFrame"],
+    "rules": {
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape",
+            "jsx-double"
+        ]
+    }
 }

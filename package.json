@@ -8,7 +8,7 @@
     "repository": "https://github.com/kamthamc/Movie-Organizer.git",
     "scripts": {
         "lint": "yarn run list:ts && yarn run lint:sass",
-        "lint:ts": "tslint -c tslint.json index.tsx",
+        "lint:ts": "tslint -t codeFrame -c tslint.json ./src/**/*.tsx",
         "lint:sass": "stylelint ./src/**/*.scss",
         "start": "yarn run start:dev",
         "test": "jest --no-cache",
