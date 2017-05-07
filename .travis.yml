@@ -12,5 +12,4 @@ install:
     yarn install
 
 script:
-    ./travis.config.sh
     yarn test
