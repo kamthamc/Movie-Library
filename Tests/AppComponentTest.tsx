@@ -16,7 +16,6 @@ describe('AppComponent', () => {
 
     test('initialization', () => {
         let tree = appComponent.toJSON();
-        expect(tree).toMatchSnapshot();
         expect(tree.props.className).toBe('alpha');
     });
 
